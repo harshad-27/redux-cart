@@ -25,7 +25,6 @@ const Products = (props) => {
       const data = await axios
         .get("https://fakestoreapi.com/products")
         .then((res) => res.data);
-      console.log("Products Fetched");
       setloading(false);
       setProductsArray(data);
     }

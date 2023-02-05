@@ -34,7 +34,7 @@ function App() {
   let persistor = persistStore(store)
   return (
     <Stack className="bg-gray-50 min-h-screen">
-      <BrowserRouter basename="/redux-cart">
+      <BrowserRouter>
         <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <Grid container>
@@ -47,7 +47,7 @@ function App() {
               </Box>
              <Box className="z-10">
              <Routes>
-                <Route path="/redux-cart" element={<Home />} />
+                <Route exact path="/" element={<Home />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/products" element={<Products />} />
               </Routes>

@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/redux-cart/static/css/main.fbb5317a.css",
-    "main.js": "/redux-cart/static/js/main.4c7e0b10.js",
+    "main.js": "/redux-cart/static/js/main.c15e8142.js",
     "static/media/hero-img.png": "/redux-cart/static/media/hero-img.5ee153324bcb7cf107ae.png",
     "static/media/illu-cart.png": "/redux-cart/static/media/illu-cart.a895f404179ea8eeee92.png",
     "static/media/illu-bag.png": "/redux-cart/static/media/illu-bag.51a59f2d99f451cf8dd6.png",
     "index.html": "/redux-cart/index.html",
     "main.fbb5317a.css.map": "/redux-cart/static/css/main.fbb5317a.css.map",
-    "main.4c7e0b10.js.map": "/redux-cart/static/js/main.4c7e0b10.js.map"
+    "main.c15e8142.js.map": "/redux-cart/static/js/main.c15e8142.js.map"
   },
   "entrypoints": [
     "static/css/main.fbb5317a.css",
-    "static/js/main.4c7e0b10.js"
+    "static/js/main.c15e8142.js"
   ]
 }
